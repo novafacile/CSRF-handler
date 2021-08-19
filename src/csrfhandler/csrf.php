@@ -8,7 +8,7 @@ Thanks	:	http://itman.in - getRealIpAddr();
 namespace csrfhandler;
 class csrf {
 
-    private static function startSession()
+    public static function startSession()
     {
         if ( !isset($_SESSION) && session_status() === PHP_SESSION_NONE) {
             session_start();
