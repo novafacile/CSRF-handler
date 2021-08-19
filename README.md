@@ -1,7 +1,6 @@
-# CSRF-Handler ![version](https://img.shields.io/badge/Version-2.0.1-green.svg) ![stars](https://img.shields.io/github/stars/banujan6/CSRF-handler.svg) ![commit](https://img.shields.io/badge/Commit-Verified-brightgreen.svg)
+# CSRF-Handler
 <b>CSRF protection</b> class file for <b>PHP</b>.<br><br>
-<b>Bye Bye, Version 1.0!</b><br>
-We released version 2 with better implementation. :)
+Original: https://github.com/banujan6/CSRF-handler
 
 
 # Functions
@@ -17,24 +16,13 @@ We released version 2 with better implementation. :)
 
 # Installation
 
-<br>
-<i><b>Via Composer</b></i>
-<br>
-<p>
-	Require the package.
-</p>
-
-```php
-	composer require banujan6/csrf-handler
-```
-<br>
 <p>Use namespace & class.</p>
 
 ```php
 	<?php
 		//If you are using any frameworks, It will load autoload.php automatically. So you don't need.
 		require_once __DIR__ . '/../../vendor/autoload.php';
-		use csrfhandler\csrf as csrf;
+		use novafacile\csrf as csrf;
 	?>
 ```
 
@@ -48,7 +36,7 @@ We released version 2 with better implementation. :)
 ```php
 <?php 
   require_once("path/csrf.php");
-  use csrfhandler\csrf as csrf;
+  use novafacile\csrf as csrf;
 ?>
 ```
 
