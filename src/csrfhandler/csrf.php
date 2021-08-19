@@ -5,7 +5,7 @@ By		: 	Banujan Balendrakumar | https://github.com/banujan6
 License	: 	Free & Open
 Thanks	:	http://itman.in - getRealIpAddr();
 */
-namespace csrfhandler;
+namespace novafacile;
 class csrf {
 
     public static function startSession()
